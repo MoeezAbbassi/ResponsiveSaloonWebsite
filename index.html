@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale = 1">
+    <title>Men Saloon</title>
+    <link rel="icon" href="images/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="index.css">
+
+<script>
+    window.onload = function()
+    {
+        document.getElementById('loader') .style.display="none";
+        document.getElementById('content') .style.display="block";
+
+    };
+</script>
+</head>
+
+<style>
+#content
+{
+    display: none;
+}
+#loader
+{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#loader img
+{
+    width: 300px;
+    height: 300px;
+
+}
+</style>
+<body>
+
+    <div id="loader">
+        <img src="images/loader.gif">
+    </div>
+
+    <div id="content">
+
+
+    <!-- ...........banner section start............ -->
+
+    <section id="banner">
+        <img src="images/logo.png" class="logo">
+        <div class="banner-text">
+            <h1>Hair Dresser</h1>
+            <p>Styling Your Hair Is Styling Your Life</p>
+            <div class="banner-btn">
+                <a href="#"><span></span>Find Out</a>
+                <a href="#"><span></span>Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ...........banner section end............ -->
+
+    <!-- ............navigation bar start......... -->
+
+    <div id="navbar">
+        <nav>
+            <ul>
+                <li><a href="#banner">HOME</a></li>
+                <li><a href="#feature">FEATURES</a></li>
+                <li><a href="#service">SERVICES</a></li>
+                <li><a href="#feedback">FEEDBACK</a></li>
+                <li><a href="#footer">CONTACT</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="menubtn">
+        <img src="images/img8.jpg" id="menu">
+    </div>
+
+    <!-- ............navigation bar end........... -->
+
+    <!-- ............Features Section Start........-->
+
+    <section id="feature">
+        <div class="title-text">
+            <p>FEATURES</p>
+            <h1>Why Choose Us ?</h1>
+        </div>
+        <div class="feature-box">
+            <div class="features">
+                <h1>Experienced Staff</h1>
+
+                <div class="description">
+                    <div class="icon">
+                        <i class="fa fa-shield"></i>
+                    </div>
+                    <div class="text">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci, optio. Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+
+                <h1>Pre Booking Online</h1>
+
+                <div class="description">
+                    <div class="icon">
+                        <i class="fa fa-check-square-o"></i>
+                    </div>
+                    <div class="text">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci, optio. Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+
+                <h1>Affordable Price</h1>
+
+                <div class="description">
+                    <div class="icon">
+                        <i class="fa fa-inr"></i>
+                    </div>
+                    <div class="text">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci, optio. Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="features-img">
+                <img src="images/feature-sec.jpg">
+            </div>
+        </div>
+    </section>
+
+     <!-- ............Features Section End..........-->
+
+
+
+
+    <!-- ............Services Section Start..........-->
+
+    <section id="service">
+        <div class="title-text">
+            <p>SERVICES</p>
+            <h1>We Provides Better</h1>
+        </div>
+        <div class="service-box">
+            <div class="single-service">
+                <img src="images/service1.jpg">
+                <div class="overlay"></div>
+                <div class="service-desc">
+                    <h3>Hair Styling</h3>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, illum! Lorem ipsum dolor sit.</p>
+                </div>
+            </div>
+
+            <div class="single-service">
+                <img src="images/service2.jpg">
+                <div class="overlay"></div>
+                <div class="service-desc">
+                    <h3>Beard Trim</h3>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, illum! Lorem ipsum dolor sit.</p>
+                </div>
+            </div>
+
+            <div class="single-service">
+                <img src="images/service3.jpg">
+                <div class="overlay"></div>
+                <div class="service-desc">
+                    <h3>Hair Cut</h3>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, illum! Lorem ipsum dolor sit.</p>
+                </div>
+            </div>
+
+            <div class="single-service">
+                <img src="images/service4.jpg">
+                <div class="overlay"></div>
+                <div class="service-desc">
+                    <h3>Dry Shampoo</h3>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, illum! Lorem ipsum dolor sit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ............Services Section End..........-->
+
+
+    <!-- ............Feedback Section Start..........-->
+
+
+    <section id="feedback">
+        <div class="title-text">
+            <p>FEEDBACK</p>
+            <h1>What Client Says</h1>
+        </div>
+        <div class="feedback-row">
+            <div class="feedback-col">
+                <div class="user">
+                    <img src="images/feedback1.jpg">
+                    <div class="user-info">
+                        <h4>James <i class="fa fa-twitter"></i></h4>
+                        <h6>@james</h6>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, earum omnis modi iure veritatis minus odit ipsum impedit velit cumque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, sapiente.</p>
+            </div>
+            <div class="feedback-col">
+                <div class="user">
+                    <img src="images/feedback2.jpg">
+                    <div class="user-info">
+                        <h4>Naosh <i class="fa fa-twitter"></i></h4>
+                        <h6>@noash</h6>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, earum omnis modi iure veritatis minus odit ipsum impedit velit cumque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, sapiente.</p>
+            </div>
+            <div class="feedback-col">
+                <div class="user">
+                    <img src="images/feedback3.jpg">
+                    <div class="user-info">
+                        <h4>Lucas <i class="fa fa-twitter"></i></h4>
+                        <h6>@lucas</h6>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, earum omnis modi iure veritatis minus odit ipsum impedit velit cumque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, sapiente.</p>
+            </div>
+        </div>
+    </section>
+
+
+        <!-- ............Feedback Section End..........-->
+
+
+            <!-- ............Footer Section Start..........-->
+
+    <section id="footer">
+        <img src="images/footer-sec.png" class="footer-img">
+        <div class="title-text">
+            <p>CONTACT</p>
+            <h1>Visit Our Shop Today</h1>
+        </div>
+        <div class="footer-row">
+            <div class="footer-left">
+                <h1>Opening Hours</h1>
+                <p><i class="fa fa-clock-o"></i> Monday to Thursday - 10am to 10pm</p>
+                <p><i class="fa fa-times-circle"></i> Friday / OFF</p>
+                <p><i class="fa fa-clock-o"></i> Saturday to Sunday - 1pm to 12pm</p>
+            </div>
+
+            <div class="footer-right">
+                <h1>Get In Touch</h1>
+                <p>B-Area Malir Colony Karachi <i class="fa fa-map-marker"></i></p>
+                <p>moiz93995@gmail.com <i class="fa fa-paper-plane"></i></p>
+                <p>+92 3172247177 <i class="fa fa-phone"></i></p>
+            </div>
+        </div>
+        <div class="social-media">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-youtube-play"></i>
+            <p>&copy copy right 2k22  <span>MOEEZ AHMED ABBASSI</span>  all right reserved.</p>
+        </div>
+    </section>
+</div>
+    
+
+            <!-- ............Footer Section End..........-->
+
+
+
+          <!-- ............JavaScript section..........-->
+    <script>
+        var menubtn = document.getElementById("menubtn");
+        var navbar = document.getElementById("navbar");
+        var menu = document.getElementById("menu");
+
+        navbar.style.right = "-180px"
+
+        menubtn.onclick = function()
+        {
+            if(navbar.style.right == "-180px")
+            {
+                navbar.style.right = "0";
+                menu.src="images/croos.png";
+            }
+            else
+            {
+                navbar.style.right = "-180px";
+                menu.src="images/img8.jpg";
+            }
+        }
+    </script>
+            <!-- ............JavaScript section..........-->
+</body>
+</html>
